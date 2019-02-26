@@ -1,4 +1,8 @@
-# Middleware_Windpark
+# Middleware Windpark
+
+## Dokumentation
+
+Eine genauere Dokumentation zu den einzelnen Projekten ist in dem entsprechenden PDF Dokumenten zu entnehmen.
 
 ## Überblick
 
@@ -11,8 +15,6 @@ Das Projekt besteht aus 3 Teilprojekte, welche aufeinander aufbauen. Es handelt 
 **DEZSYS-L06:** Von der zentralen Stelle aus soll mittels Remote Method Invocation die einzelnen Windräder der Windparks gesteuert werden können.
 
 **Skizze:**
+![Test](https://raw.githubusercontent.com/mertl-tgm/Middleware_Windpark/master/windpark_grafik.jpg)
 
 
-## Dokumentation
-
-Eine genauere Dokumentation zu den einzelnen Projekten ist in dem entsprechenden PDF Dokumenten zu entnehmen.
