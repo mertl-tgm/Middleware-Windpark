@@ -1,0 +1,20 @@
+http://www.kurztutorial.info/windkraft/wind-leistung/energie.htm
+
+
+Einheiten:
+
+aktuelle Stromerzeugung: etwa 2 bis 5 MW für Onshore-Anlagen und 3,6 bis 8 MW für Offshore-Anlagen
+Blindstrom: 0 - 10 var
+Windgeschwindigkeit: 6 - 10 m/s
+Blattposition: max 180°
+Temperatur: -10 bis + 35
+Umdrehungen: 5 - 18 upm
+
+
+
+1 seite design plus uml
+kein wireshark
+
+
+key für capsa free:
+03930-21496-08728-16218-68117

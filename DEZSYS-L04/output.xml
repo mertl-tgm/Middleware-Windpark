@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<windpark>
+	<windrad>
+		<aktStrom>
+			<value>3.8350212510606614</value>
+			<unit>MW</unit>
+		</aktStrom>
+		<Blindstrom>
+			<value>0.28239170573273337</value>
+			<unit>var</unit>
+		</Blindstrom>
+		<Windgeschwindigkeit>
+			<value>6.324840165219221</value>
+			<unit>ms</unit>
+		</Windgeschwindigkeit>
+		<Blattposition>
+			<value>9.443996154341907</value>
+			<unit>°</unit>
+		</Blattposition>
+		<Temperatur>
+			<value>-9.545161381152413</value>
+			<unit>°C</unit>
+		</Temperatur>
+		<Umdrehungen>
+			<value>10.301589714164313</value>
+			<unit>upm</unit>
+		</Umdrehungen>
+	</windrad>
+</windpark>

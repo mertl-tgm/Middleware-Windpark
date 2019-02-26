@@ -1,0 +1,441 @@
+
+-----------------Control Windrad-----------------
+>>>show names
+w0
+w1
+w2
+Windrad
+>>>w0 status
+Windrad Informationen:
+Running: false
+Blattwinkel: 0.0
+Gondelwinkel: 0.0
+Blindleistung: 0.0
+Wirkleistung: 0.0
+>>>w0 blindleistung 10
+Returns: true
+>>>w0 status
+Windrad Informationen:
+Running: false
+Blattwinkel: 0.0
+Gondelwinkel: 0.0
+Blindleistung: 10.0
+Wirkleistung: 0.0
+>>>update connections
+-----------------Control Windrad-----------------
+>>>
+>>>show names
+w0
+w1
+w2
+>>>w0 status
+Windrad Informationen:
+Running: false
+Blattwinkel: 0.0
+Gondelwinkel: 0.0
+Blindleistung: 0.0
+Wirkleistung: 0.0
+-----------------Control Windrad-----------------
+>>>help
+-----------------Control Windrad-----------------
+>>>help
+-----------------Control Windrad-----------------
+>>>help
+>>>exit
+-----------------Control Windrad-----------------
+>>>show names
+w0
+w1
+w2
+>>>sdfasdf
+>>>w0 status
+Windrad Informationen:
+Running: false
+Blattwinkel: 165.74209243790673
+Gondelwinkel: 21.577177920975842
+Blindleistung: 0.31894486111766157
+Wirkleistung: 3.226218954909105
+>>>w0 turn on
+Returns: true
+-----------------Control Windrad-----------------
+>>>help
+Commands:
+show names	List all names
+[name of windrad] status	List all attributes
+[name of windrad] [typ of settings] [value]	Sets the attribute of the windrad to given value
+exit	Exit the program
+>>>show names
+w0
+w1
+w2
+>>>w0 status
+Windrad Informationen:
+Running: false
+Blattwinkel: 111.6594911204455
+Gondelwinkel: 6.208314429309897
+Blindleistung: 0.031355282594234216
+Wirkleistung: 2.349119155521441
+>>>w0 turn on
+Returns: Success
+>>>w0 turn off
+Returns: Success
+>>>w0 blindleistung 10
+Returns: Success
+>>>w0 status
+Windrad Informationen:
+Running: false
+Blattwinkel: 111.6594911204455
+Gondelwinkel: 6.208314429309897
+Blindleistung: 10.0
+Wirkleistung: 2.349119155521441
+>>>exit
+-----------------Control Windrad-----------------
+>>>help
+Commands:
+show names	List all names
+update connections	Connects to all given names
+[name of windrad] status	List all attributes
+[name of windrad] [typ of settings] [value]	Sets the attribute of the windrad to given value
+exit	Exit the program
+>>>show names
+w0
+w1
+w2
+>>>w0 status
+Windrad Informationen:
+Running: false
+Blattwinkel: 23.28453913876725
+Gondelwinkel: 14.508438342309312
+Blindleistung: 0.005807354954752817
+Wirkleistung: 3.0122311354301123
+>>>w0 turn on
+Returns: Success
+-----------------Control Windrad-----------------
+>>>show names
+w0
+w1
+w2
+>>>w1 status
+Windrad Informationen:
+Running: false
+Blattwinkel: 66.41616376000691
+Gondelwinkel: 7.743305173634979
+Blindleistung: 0.3964245484749188
+Wirkleistung: 2.368539410701005
+>>>w1 turn on
+Returns: Success
+>>>w1 wirkleistung 4.5
+Returns: Success
+>>>w1 status
+Windrad Informationen:
+Running: true
+Blattwinkel: 66.41616376000691
+Gondelwinkel: 7.743305173634979
+Blindleistung: 0.3964245484749188
+Wirkleistung: 4.5
+-----------------Control Windrad-----------------
+>>>help
+Commands:
+show names	List all names
+update connections	Connects to all given names
+[name of windrad] status	List all attributes
+[name of windrad] [typ of settings] [value]	Sets the attribute of the windrad to given value
+exit	Exit the program
+>>>show names
+w0
+w1
+w2
+>>>w0 status
+Windrad Informationen:
+Running: false
+Blattwinkel: 129.7996851016891
+Gondelwinkel: 17.713236009598745
+Blindleistung: 0.14327802965334405
+Wirkleistung: 3.2681714067223755
+>>>w0 turn on
+Returns: Success
+>>>exit
+RemoteControl exception: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connection refused: connect
+-----------------Control Windrad-----------------
+RemoteControl exception, check if RMI is running
+Error message: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connection refused: connect
+-----------------Control Windrad-----------------
+RemoteControl exception, check if RMI is running
+Error message: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connection refused: connect
+-----------------Control Windrad-----------------
+>>>help
+Commands:
+show names	List all names
+update connections	Connects to all given names
+[name of windrad] status	List all attributes
+[name of windrad] [typ of settings] [value]	Sets the attribute of the windrad to given value
+exit	Exit the program
+>>>show names
+Remote exception while trying to execute following commando: show names
+>>>help
+Commands:
+show names	List all names
+update connections	Connects to all given names
+[name of windrad] status	List all attributes
+[name of windrad] [typ of settings] [value]	Sets the attribute of the windrad to given value
+exit	Exit the program
+>>>show names
+Remote exception while trying to execute following commando: show names
+>>>w0 turn on
+Windrad with used name not existing
+>>>exit
+RemoteControl exception, check if RMI is running
+Error message: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connection refused: connect
+-----------------Control Windrad-----------------
+-----------------Control Windrad-----------------
+>>>show names
+w0
+w1
+w2
+>>>w0 status
+Windrad Informationen:
+Running: false
+Blattwinkel: 55.11171279585123
+Gondelwinkel: 24.627703313802986
+Blindleistung: 0.3110365085601698
+Wirkleistung: 2.220012899139862
+>>>help
+Commands:
+show names	List all names
+update connections	Connects to all given names
+[name of windrad] status	List all attributes
+[name of windrad] [typ of settings] [value]	Sets the attribute of the windrad to given value
+exit	Exit the program
+>>>stats
+>>>exit
+-----------------Control Windrad-----------------
+>>>help
+Commands:
+show names	List all names
+update connections	Connects to all given names
+[name of windrad] status	List all attributes
+[name of windrad] [typ of settings] [value]	Sets the attribute of the windrad to given value
+exit	Exit the program
+>>>show names
+w0
+w1
+w2
+>>>w0 turn on
+Returns: Success
+>>>w0 turn asd
+Syntax error
+>>>w0 turn off
+Returns: Success
+>>>w0 status
+Windrad Informationen:
+Running: false
+Blattwinkel: 119.66142601270599
+Gondelwinkel: 35.222961102568526
+Blindleistung: 0.17462497341975255
+Wirkleistung: 3.077040213772572
+>>>w0 blattwinkel 11111111111111111111111
+Returns: Success
+>>>w0 status
+Windrad Informationen:
+Running: false
+Blattwinkel: 1.1111111111111111E22
+Gondelwinkel: 35.222961102568526
+Blindleistung: 0.17462497341975255
+Wirkleistung: 3.077040213772572
+>>>show names
+w0
+w1
+w2
+>>>update connections
+>>>show names
+w0
+w1
+w2
+>>>sasda
+-----------------Control Windrad-----------------
+>>>help
+Commands:
+show names	List all names
+update connections	Connects to all given names
+[name of windrad] status	List all attributes
+[name of windrad] [typ of settings] [value]	Sets the attribute of the windrad to given value
+exit	Exit the program
+Not existing command
+-----------------Control Windrad-----------------
+>>>show names
+w0
+w1
+w2
+>>>w0 turn on
+Returns: Success
+>>>w0 status
+Windrad Informationen:
+Running: true
+Blattwinkel: 150.37582268786895
+Gondelwinkel: 14.857696716849212
+Blindleistung: 0.011809895070431812
+Wirkleistung: 2.228355173980634
+>>>help
+Commands:
+show names	List all names
+update connections	Connects to all given names
+[name of windrad] status	List all attributes
+[name of windrad] [typ of settings] [value]	Sets the attribute of the windrad to given value
+exit	Exit the program
+>>>update connections
+>>>show namse
+Not existing command
+>>>show names
+w0
+w1
+w2
+>>>exit
+-----------------Control Windrad-----------------
+>>>show names
+w0
+w1
+w2
+>>>help
+Commands:
+show names	List all names
+update connections	Connects to all given names
+[name of windrad] status	List all attributes
+[name of windrad] [typ of settings] [value]	Sets the attribute of the windrad to given value
+exit	Exit the program
+>>>update connections
+-----------------Control Windrad-----------------
+>>>show names
+w0
+w1
+w2
+>>>show names
+w0
+w1
+w2
+>>>update connections
+>>>show names
+w0
+w1
+w2
+-----------------Control Windrad-----------------
+-----------------Control Windrad-----------------
+>>>show names
+w0
+w1
+w2
+>>>newW
+Not existing command
+>>>show names
+w0
+w1
+w2
+w3
+-----------------Control Windrad-----------------
+>>>show names
+w0
+w1
+w2
+w3
+>>>newW
+>>>show names
+w0
+w1
+w2
+w3
+-----------------Control Windrad-----------------
+>>>show names
+w0
+w1
+w2
+w3
+>>>newW
+>>>show names
+w0
+w1
+w2
+w3
+-----------------Control Windrad-----------------
+>>>show names
+w0
+w1
+w2
+w3
+-----------------Control Windrad-----------------
+>>>show names
+w0
+w1
+w2
+w3
+-----------------Control Windrad-----------------
+>>>show names
+w0
+w1
+w2
+w3
+-----------------Control Windrad-----------------
+>>>show names
+w0
+w1
+w2
+>>>newW
+>>>show names
+w0
+w1
+w2
+w3
+>>>help
+Commands:
+show names	List all names
+update connections	Connects to all given names
+[name of windrad] status	List all attributes
+[name of windrad] [typ of settings] [value]	Sets the attribute of the windrad to given value
+exit	Exit the program
+>>>w1 status
+Windrad Informationen:
+Running: false
+Blattwinkel: 172.75865152006415
+Gondelwinkel: 8.132970920617161
+Blindleistung: 0.12697258214836726
+Wirkleistung: 3.748333783886144
+>>>w1 status
+Windrad Informationen:
+Running: false
+Blattwinkel: 172.75865152006415
+Gondelwinkel: 8.132970920617161
+Blindleistung: 0.12697258214836726
+Wirkleistung: 3.748333783886144
+>>>w1 turn on
+Returns: Success
+>>>w1 status
+Windrad Informationen:
+Running: true
+Blattwinkel: 172.75865152006415
+Gondelwinkel: 8.132970920617161
+Blindleistung: 0.12697258214836726
+Wirkleistung: 3.748333783886144
+>>>w1 wirkleistung 10
+Returns: Success
+>>>w1 status
+Windrad Informationen:
+Running: true
+Blattwinkel: 172.75865152006415
+Gondelwinkel: 8.132970920617161
+Blindleistung: 0.12697258214836726
+Wirkleistung: 10.0
+Fri Jun 23 09:55:18 CEST 2017-----------------Control Windrad-----------------
+Fri Jun 23 09:55:20 CEST 2017>>>help
+Fri Jun 23 09:55:20 CEST 2017Commands:
+show names	List all names
+update connections	Connects to all given names
+[name of windrad] status	List all attributes
+[name of windrad] [typ of settings] [value]	Sets the attribute of the windrad to given value
+exit	Exit the program
+Fri Jun 23 09:55:22 CEST 2017>>>show names
+Fri Jun 23 09:55:22 CEST 2017w0
+Fri Jun 23 09:55:22 CEST 2017w1
+Fri Jun 23 09:55:22 CEST 2017w2
+Fri Jun 23 09:55:22 CEST 2017w3

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<windpark>
+	<windrad>
+		<aktStrom>
+			<value>2.311352035928211</value>
+			<unit>MW</unit>
+		</aktStrom>
+		<Blindstrom>
+			<value>0.15039154904979932</value>
+			<unit>var</unit>
+		</Blindstrom>
+		<Windgeschwindigkeit>
+			<value>6.744287859316025</value>
+			<unit>ms</unit>
+		</Windgeschwindigkeit>
+		<Blattposition>
+			<value>56.278813131700275</value>
+			<unit>Grad</unit>
+		</Blattposition>
+		<Temperatur>
+			<value>12.84880004229263</value>
+			<unit>Grad C</unit>
+		</Temperatur>
+		<Umdrehungen>
+			<value>15.233914086997785</value>
+			<unit>upm</unit>
+		</Umdrehungen>
+	</windrad>
+	<windrad>
+		<aktStrom>
+			<value>3.883667233100921</value>
+			<unit>MW</unit>
+		</aktStrom>
+		<Blindstrom>
+			<value>0.10297865310626521</value>
+			<unit>var</unit>
+		</Blindstrom>
+		<Windgeschwindigkeit>
+			<value>8.366451697921672</value>
+			<unit>ms</unit>
+		</Windgeschwindigkeit>
+		<Blattposition>
+			<value>172.53235535846173</value>
+			<unit>Grad</unit>
+		</Blattposition>
+		<Temperatur>
+			<value>20.629398309087815</value>
+			<unit>Grad C</unit>
+		</Temperatur>
+		<Umdrehungen>
+			<value>7.798535232291501</value>
+			<unit>upm</unit>
+		</Umdrehungen>
+	</windrad>
+</windpark>
